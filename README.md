@@ -16,3 +16,4 @@ short_description: Refined langgraphAgenticAI
 The project is in development
 
 ## committing the code on Mar 17
+## Issue fixed with module not found by renaming requirement.txt to requirements.txt
