@@ -15,4 +15,4 @@ short_description: Refined langgraphAgenticAI
 
 The project is in development
 
-## committing the code on Mar 17 2025
+## committing the code on Mar 17
