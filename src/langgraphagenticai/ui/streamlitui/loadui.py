@@ -39,7 +39,7 @@ class LoadStreamlitUI:
             usecase_options = self.config.get_usecase_options()
 
             # LLM selection
-            self.user_clcontrols["selected_llm"] = st.selectbox("Select LLM", llm_options)
+            self.user_controls["selected_llm"] = st.selectbox("Select LLM", llm_options)
 
             if self.user_controls["selected_llm"] == 'Groq':
                 # Model selection
@@ -63,7 +63,7 @@ class LoadStreamlitUI:
                 # Validate API key
                 if not self.user_controls["TAVILY_API_KEY"]:
                     st.warning("⚠️ Please enter your TAVILY_API_KEY key to proceed. Don't have? refer : https://app.tavily.com/home")
-                    
+
             if "state" not in st.session_state:
                 st.session_state.state = self.initialize_session()
             
